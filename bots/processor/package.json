@@ -1,0 +1,28 @@
+{
+	"name": "leo_cron_processor",
+	"version": "1.0.1",
+	"description": "Invokes bots to run by configuration",
+	"main": "index.js",
+	"directories": {
+		"test": "test"
+	},
+	"scripts": {
+		"test": "leo-cli test ."
+	},
+	"config": {
+		"leo": {
+			"type": "bot",
+			"handler": "handler",
+			"memory": 256,
+			"timeout": 300,
+			"env": {
+				"LeoCron": "${LeoCron}"
+			},
+			"role": "LeoCronRole"
+		}
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {}
+}

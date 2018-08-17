@@ -1,0 +1,45 @@
+{
+	"name": "leo-cron",
+	"version": "1.0.0",
+	"description": "Cron++",
+	"main": "index.js",
+	"scripts": {
+		"test": "mocha --recursive -w",
+		"setup": "setup"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/LeoPlatform/cron.git"
+	},
+	"keywords": [
+		"Kinesis",
+		"Kafka"
+	],
+	"author": "LeoPlatform",
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/LeoPlatform/cron/issues"
+	},
+	"homepage": "https://github.com/LeoPlatform/cron#readme",
+	"dependencies": {
+		"deep-diff": "^0.3.8",
+		"later": "^1.2.0",
+		"leo-logger": "^1.0.0",
+		"lodash.merge": "^4.6.1",
+		"moment": "^2.21.0"
+	},
+	"devDependencies": {
+		"babel-preset-env": "^1.6.1"
+	},
+	"config": {
+		"leo": {
+			"type": "microservice",
+			"regions": [
+				"us-west-2",
+				"us-east-1"
+			],
+			"3rdParty": true,
+			"excludeProfiles": true
+		}
+	}
+}
