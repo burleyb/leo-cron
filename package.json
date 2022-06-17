@@ -1,6 +1,6 @@
 {
 	"name": "leo-cron",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Cron++",
 	"main": "index.js",
 	"scripts": {
