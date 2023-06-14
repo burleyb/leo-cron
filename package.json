@@ -26,9 +26,12 @@
 		"deep-diff": "^0.3.8",
 		"later": "^1.2.0",
 		"leo-logger": "^1.0.0",
-		"leo-sdk": "^2.2.4",
+		"leo-sdk": "file:../smartshyp-deps/leo-sdk",
 		"lodash.merge": "^4.6.1",
 		"moment": "^2.21.0"
+	},
+	"overrides": {
+		"leo-sdk": "file:../smartshyp-deps/leo-sdk"
 	},
 	"devDependencies": {
 		"babel-preset-env": "^1.6.1"
